@@ -1,0 +1,14 @@
+.item{
+    align-self: center;
+    align-items: stretch;
+}
+
+.userdefine{
+
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex{
+    background-color: rgb(24, 141, 141);
+}
