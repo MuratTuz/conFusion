@@ -59,3 +59,20 @@ body {
   max-width: 10px;
   border: 1px solid #FFF;
   background-color: transparent; }
+
+#loginModalButton, #reserveModalButton {
+  cursor: pointer; }
+
+.modalHeaderColor {
+  background: #512DA8;
+  color: floralwhite; }
+
+.modalBodyColor {
+  background: #D1C4E9;
+  color: black; }
+
+.modalFooterColor {
+  background: #9575CD; }
+
+.close {
+  color: floralwhite; }

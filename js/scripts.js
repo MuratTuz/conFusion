@@ -19,30 +19,19 @@
     });
     });
   
-    /*    Scripts are disabled for the assignments
+        $(function(){
+            $('#reserveModalButton').on('click', function(){
+                $('#ReserveModal').modal('toggle');
+                });     
+                
+            $('#loginModalButton').on('click', function(){
+               $('#loginModal').modal('toggle');
+            });
 
-    <script>
-        $(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 2000 } );
-            $("#carousel-pause").click(function(){
-                $("#mycarousel").carousel('pause');
-            });
-            $("#carousel-play").click(function(){
-                $("#mycarousel").carousel('cycle');
-            });
         });
-    </script>
-     
-    <script>
-        $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();
-        $('.carousel').carousel({
-            interval: 2000
-            })
-            });
-    </script>
- 
 
+ 
+/*
     <script>
     $('#mycarousel').on('slide.bs.carousel', function(){
         $('h3').html('HELLO WORLD');

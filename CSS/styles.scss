@@ -80,3 +80,21 @@ body{
     border: 1px solid #FFF;
     background-color: transparent;
   }
+
+  #loginModalButton, #reserveModalButton{
+    cursor: pointer;  }
+  
+    .modalHeaderColor{
+    background: $background-dark; 
+    color: floralwhite  }
+  
+    .modalBodyColor{
+    background: $background-pale;  
+    color: black  }
+  
+    .modalFooterColor{
+    background: $background-light;
+    }
+  
+    .close{
+    color: floralwhite  }  
